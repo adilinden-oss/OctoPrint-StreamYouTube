@@ -44,7 +44,7 @@ class youtubelive(octoprint.plugin.StartupPlugin,
 	##~~ SettingsPlugin
 	
 	def get_settings_defaults(self):
-		return dict(channel_id="",stream_id="",webcam_url="",streaming=False,auto_start=False)
+		return dict(channel_id="",stream_url="rtmp://a.rtmp.youtube.com/live2",stream_id="",webcam_url="",streaming=False,auto_start=False)
 		
 	##~~ SimpleApiPlugin
 	
