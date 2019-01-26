@@ -1,5 +1,13 @@
 # OctoPrint-YouTubeLive
 
+## Not Maintained!
+
+The [OctoPrint-YouTubeLive](https://plugins.octoprint.org/plugins/YouTubeLive/) plugin by 'jneilliii' got me started streaming my [OctoPi](https://octoprint.org/download/) webcam to [my YouTube Channel](https://www.youtube.com/user/oodissimo/). Once I made [OctoPi](https://octoprint.org/download/) accessible via a SSO reverse proxy, it became necessary to specify the webcam URL independent of  [OctoPi](https://octoprint.org/download/) global setting. In brief, the global setting needed to remain a relative URL and the plugin setting needed to be absolute. Hence this fork was born.
+
+I learned a lot about [OctoPrint](https://octoprint.org/) development in the process. It also brought up some whole new ideas. The [OctoPrint-WebcamStreamer](https://github.com/adilinden-oss/octoprint-webcamstreamer) was born. While it foundation are very clearly based on [OctoPrint-YouTubeLive](https://plugins.octoprint.org/plugins/YouTubeLive/) by 'jneilliii' I don't think it would be fair to call it a fork any longer.
+
+I am leaving this here in case anyone finds it useful.
+
 ## Overview 
 
 Plugin that adds a tab to OctoPrint for viewing, starting, and stopping a YouTube Live stream. 
